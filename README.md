@@ -6,7 +6,8 @@ Back end for a tech news website where users can post, upvote, and comment on li
 ## Table of Contents
 [Installation Instructions](#installation-instructions)   
 [Built With](#built-with)  
-[Contribution](#contribution) 
+[Deployed Application](#deployed-application)  
+[Contribution](#contribution)  
 
 ## Installation Instructions
 npm, Node.js, Express.js, MySQL, MySQL2, Sequelize, and dotenv must be installed to use this application.
@@ -27,6 +28,9 @@ Once the above steps have been followed, follow the steps below to run the appli
 ## Built With
 * Node.js
 * JavaScript
+
+## Deployed Application
+https://just-tech-news-dch.herokuapp.com/
 
 ## Contribution
 Made with ❤️ by Dylan Hay
