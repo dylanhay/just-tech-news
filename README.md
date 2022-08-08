@@ -10,7 +10,7 @@ Back end for a tech news website where users can post, upvote, and comment on li
 [Contribution](#contribution)  
 
 ## Installation Instructions
-npm, Node.js, Express.js, MySQL, MySQL2, Sequelize, dotenv, and bcrypt must be installed to use this application.
+npm, Node.js, Express.js, MySQL, MySQL2, Sequelize, dotenv, bcrypt, and sessions must be installed to use this application.
 
 * To initialize npm, enter "npm init" in terminal while in the root folder of the project
 * Node.js can be downloaded and installed from https://nodejs.org/en/download/  
@@ -18,6 +18,7 @@ npm, Node.js, Express.js, MySQL, MySQL2, Sequelize, dotenv, and bcrypt must be i
 * To install Express.js, MySQL2 and Sequelize, enter "npm install express sequelize mysql2" in terminal while in the root folder of the project
 * To install the dotenv package, enter "npm install dotenv" in terminal while in the root folder of the project
 * To install the bcrypt package, enter "npm install bcrypt" in terminal while in the root folder of the project 
+* To install sessions, enter "npm i express-session connect-session-sequelize" in terminal while in the root folder of the project 
 
 Once the above steps have been followed, follow the steps below to run the application: 
 * Enter the database name, your MySQL username and your password into the .env file
