@@ -7,6 +7,7 @@ Comment.init(
   {
     id: {
         type: DataTypes.INTEGER,
+        allowNull: false,
         primaryKey: true,
         autoIncrement: true
       },
@@ -31,8 +32,8 @@ Comment.init(
         references: {
           model: 'post',
           key: 'id'
-        }
-      }
+        },
+      },
   },
   {
     sequelize,
