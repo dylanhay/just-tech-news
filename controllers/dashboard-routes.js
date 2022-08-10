@@ -92,7 +92,7 @@ router.get("/edit/:id", withAuth, (req, res) => {
       // res.render('single-post', { post });
       res.render("edit-post", {
         post,
-        loggedIn: req.session.loggedIn,
+        loggedIn: true,
       });
     })
     .catch((err) => {
