@@ -4,12 +4,14 @@
 Back end for a tech news website where users can post, upvote, and comment on links to news articles.
 
 ## Table of Contents
-[Installation Instructions](#installation-instructions)   
-[Built With](#built-with)  
 [Deployed Application](#deployed-application)  
+[Built With](#built-with)  
+[Installation](#installation)   
 [Contribution](#contribution)  
 
-## Installation Instructions
+## Deployed Application
+
+## Installation
 npm, Node.js, Express.js, MySQL, MySQL2, Sequelize, and dotenv must be installed to use this application.
 
 * To initialize npm, enter "npm init" in terminal while in the root folder of the project
@@ -29,8 +31,7 @@ Once the above steps have been followed, follow the steps below to run the appli
 * Node.js
 * JavaScript
 
-## Deployed Application
-https://just-tech-news-dch.herokuapp.com/
+
 
 ## Contribution
 Made with ❤️ by Dylan Hay
