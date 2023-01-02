@@ -36,6 +36,7 @@ https://just-tech-news-dch.herokuapp.com/
 * Git
 * Insomnia
 * Heroku
+* JawsDB
 
 ## Landing Page
 ![Screenshot](./images/jtn-land-page.png "Landing Page")
