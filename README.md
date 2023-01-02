@@ -10,7 +10,6 @@ This application is covered under the following license. Please review the link 
 https://www.gnu.org/licenses/gpl-3.0
 
 ## Table of Contents
-[Deployed Application](#deployed-application)  
 [Built With](#built-with)  
 [Installation](#installation)   
 [Testing](#testing)  
