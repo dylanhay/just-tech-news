@@ -1,7 +1,7 @@
 # Just Tech News
 
 ## Description
-Back end for a tech news website where users can post, upvote, and comment on links to news articles.
+A tech news website where users can post, upvote, and comment on links to news articles.
 
 ## License  
 This application is covered under the following license. Please review the link below for additional information pertaining to the license.

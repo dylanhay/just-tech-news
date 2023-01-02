@@ -111,14 +111,16 @@ router.post("/", withAuth, (req, res) => {
 });
 
 // create vote
-router.put("/upvote", (req, res) => {
-  Post.upvote(req.body, { Vote })
-    .then((dbPostData) => res.json(dbPostData))
-    .catch((err) => {
+router.put('/upvote', withAuth, (req, res) => {
+  // custom static method created in models/Post.js
+  Post.upvote({ ...req.body, user_id: req.session.user_id }, { Vote, Comment, User })
+    .then(updatedVoteData => res.json(updatedVoteData))
+    .catch(err => {
       console.log(err);
-      res.status(400).json(err);
+      res.status(500).json(err);
     });
 });
+
 
 //update a post
 router.put("/:id", withAuth, (req, res) => {
