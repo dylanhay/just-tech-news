@@ -44,10 +44,10 @@ https://just-tech-news-dch.herokuapp.com/
 ## Installation
 To run locally once cloned:
 * Enter `npm install` in the CLI to install the required npm packages
-* Create a .env file in the root folder and add the following lines to the file, filling in your MySQL username and password:
+* Create a .env file in the root folder and add the following lines to the file, filling in your MySQL password:
 
     `DB_NAME='just_tech_news_db'`  
-    `DB_USER=''`  
+    `DB_USER='root'`  
     `DB_PASSWORD=''` 
 
 * Enter `mysql -u root -p` in the CLI and enter your MySQL password to navigate to the MySQL Shell
