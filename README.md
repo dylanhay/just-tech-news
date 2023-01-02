@@ -42,21 +42,21 @@ https://just-tech-news-dch.herokuapp.com/
 
 ## Installation
 To run locally once cloned:
-* Enter `npm install` in the command line while in the root folder to install the required npm packages
+* Enter `npm install` in the CLI to install the required npm packages
 * Create a .env file in the root folder and add the following lines to the file, filling in your MySQL username and password:
 
     `DB_NAME='just_tech_news_db'`  
     `DB_USER=''`  
     `DB_PASSWORD=''` 
 
-* Enter `mysql -u root -p` and enter your MySQL password to navigate to the MySQL Shell
+* Enter `mysql -u root -p` in the CLI and enter your MySQL password to navigate to the MySQL Shell
 * Enter `source db/schema.sql` in the MySQL Shell to create the `just_tech_news_db` database
-* Exit the MySQL Shell and enter `npm run seed` in the command line while in the root folder to seed the database
-* Enter `npm start` in terminal to launch live server
+* Exit the MySQL Shell and enter `npm run seed` in the CLI to seed the database
+* Enter `npm start` in the CLI to launch live server
 * Routes can tested and database can be edited via an API development platform such as Insomnia
 
 ## Testing
-* Enter `npm test` in the command line while in the root folder to run Jest
+* Enter `npm test` in the CLI while in the root folder to run Jest
 
 ## Contribution
 Built by Dylan Hay
