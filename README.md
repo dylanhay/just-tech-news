@@ -12,6 +12,7 @@ https://www.gnu.org/licenses/gpl-3.0
 ## Table of Contents
 [Deployed Application](#deployed-application)  
 [Built With](#built-with)  
+[Landing Page](#landing-page)  
 [Installation](#installation)   
 [Testing](#testing)  
 [Contribution](#contribution)  
@@ -34,7 +35,10 @@ https://just-tech-news-dch.herokuapp.com/
 * Jest
 * Git
 * Insomnia
-* Cyclic
+* Heroku
+
+## Landing Page
+![Screenshot](./images/jtn-land-page.png "Landing Page")
 
 ## Installation
 To run locally once cloned:
