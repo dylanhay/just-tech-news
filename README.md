@@ -3,36 +3,55 @@
 ## Description
 Back end for a tech news website where users can post, upvote, and comment on links to news articles.
 
+## License  
+This application is covered under the following license. Please review the link below for additional information pertaining to the license.
+    
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)  
+https://www.gnu.org/licenses/gpl-3.0
+
 ## Table of Contents
-[Installation Instructions](#installation-instructions)   
-[Built With](#built-with)  
 [Deployed Application](#deployed-application)  
+[Built With](#built-with)  
+[Installation](#installation)   
+[Testing](#testing)  
 [Contribution](#contribution)  
 
-## Installation Instructions
-npm, Node.js, Express.js, MySQL, MySQL2, Sequelize, dotenv, bcrypt, Handlebars and sessions must be installed to use this application.
-
-* To initialize npm, enter "npm init" in terminal while in the root folder of the project
-* Node.js can be downloaded and installed from https://nodejs.org/en/download/  
-* MySQL can be downloaded and installed from https://dev.mysql.com/downloads/mysql/
-* To install Express.js, MySQL2 and Sequelize, enter "npm install express sequelize mysql2" in terminal while in the root folder of the project
-* To install the dotenv package, enter "npm install dotenv" in terminal while in the root folder of the project
-* To install the bcrypt package, enter "npm install bcrypt" in terminal while in the root folder of the project 
-* To install handlebars, enter "npm install express-handlebars" in terminal while in the root folder of the project 
-* To install sessions, enter "npm i express-session connect-session-sequelize" in terminal while in the root folder of the project 
-
-Once the above steps have been followed, follow the steps below to run the application: 
-* Enter the database name, your MySQL username and your password into the .env file
-* Enter "mysql -u root -p" and enter your MySQL password to navigate to the MySQL Shell
-* Enter "source db/schema.sql" in the MySQL Shell to create the "just_tech_news_db" database
-* Enter "npm start" in terminal to launch live server
+## Deployed Application
 
 ## Built With
-* Node.js
 * JavaScript
+* Node.js
+* Express.js
+* MySQL2
+* Sequelize
+* Sessions
+* dotenv
+* bcrypt
+* Handlebars
+* HTML
+* CSS
+* Jest
+* Git
+* Insomnia
+* Cyclic
 
-## Deployed Application
-https://just-tech-news-dch.herokuapp.com/
+## Installation
+To run locally once cloned:
+* Enter `npm install` in the command line while in the root folder to install the required npm packages
+* Create a .env file in the root folder and add the following lines to the file, filling in your MySQL username and password:
+
+    `DB_NAME='just_tech_news_db'`  
+    `DB_USER=''`  
+    `DB_PASSWORD=''` 
+
+* Enter `mysql -u root -p` and enter your MySQL password to navigate to the MySQL Shell
+* Enter `source db/schema.sql` in the MySQL Shell to create the `just_tech_news_db` database
+* Exit the MySQL Shell and enter `npm run seed` in the command line while in the root folder to seed the database
+* Enter `npm start` in terminal to launch live server
+* Routes can tested and database can be edited via an API development platform such as Insomnia
+
+## Testing
+* Enter `npm test` in the command line while in the root folder to run Jest
 
 ## Contribution
-Made with ❤️ by Dylan Hay
+Built by Dylan Hay
